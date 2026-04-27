@@ -1,0 +1,18 @@
+# versi format compose
+version: '3'
+
+# services
+services:
+ # nama service
+  web:
+    # build context
+    build: .
+    # port mapping
+    ports:
+      - "3001:3001"
+    # environment variables
+    environment:
+      - env=development
+  
+  db:
+    # image yang digunakan
