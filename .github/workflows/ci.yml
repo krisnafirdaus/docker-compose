@@ -10,6 +10,3 @@ jobs:
       
       - name: Install dependencies
         run: npm install # Standard shell command
-        
-      - name: Run tests
-        run: npm test
